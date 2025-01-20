@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+   scrollbar : hidden;
+}
+
 /***** Thumb Styles *****/
 /***** Firefox *****/
 /********** Range Input Styles **********/

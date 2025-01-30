@@ -4,8 +4,8 @@ import pay1 from "../assest/img/payment.png";
 import { AiOutlineMail } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { AiOutlineMobile } from "react-icons/ai";
-import { TfiFacebook } from "react-icons/tfi";
-import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { TfiFacebook, TfiInstagram } from "react-icons/tfi";
+import { FaLinkedinIn, FaTelegram, FaYoutube } from "react-icons/fa";
 
 import { FaTwitter } from "react-icons/fa";
 
@@ -17,7 +17,7 @@ const Footer = () => {
 					<div className="max-w-7xl  mx-auto   p-2 gap-5 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  ">
 						<div className="">
 							<h1 className="text-primary text-4xl font-bold">Handcrafted</h1>
-							<p className="text-secondary">Event Products</p>
+							<p className="text-secondary">Event Treasures</p>
 							{/* <p className="text-white  font-medium sm:text-sm text-xs my-5 tracking-wide">
 								{" "}
 								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -44,24 +44,24 @@ const Footer = () => {
 						<div className="w-full flex justify-end items-center my-3 self-end gap-2 ">
 							<button className="rounded-full text-lg p-3  border border-secondary flex justify-center items-center  hover:bg-secondary  text-secondary hover:text-white  transition-all duration-300   ">
 								<a className="" href="#">
-									<FaTwitter />
+									<FaTelegram />
 								</a>
 							</button>
 							<button className="rounded-full text-lg p-3  border border-secondary flex justify-center items-center  hover:bg-secondary  text-secondary hover:text-white  transition-all duration-300   ">
 								<a className="" href="#">
-									<TfiFacebook />
+									<TfiInstagram />
 								</a>
 							</button>
-							<button className="rounded-full text-lg p-3  border border-secondary flex justify-center items-center  hover:bg-secondary  text-secondary hover:text-white  transition-all duration-300   ">
+							{/* <button className="rounded-full text-lg p-3  border border-secondary flex justify-center items-center  hover:bg-secondary  text-secondary hover:text-white  transition-all duration-300   ">
 								<a className="" href="#">
 									<FaYoutube />
 								</a>
-							</button>
-							<button className="rounded-full text-lg p-3  border border-secondary flex justify-center items-center  hover:bg-secondary  text-secondary hover:text-white  transition-all duration-300   ">
+							</button> */}
+							{/* <button className="rounded-full text-lg p-3  border border-secondary flex justify-center items-center  hover:bg-secondary  text-secondary hover:text-white  transition-all duration-300   ">
 								<a className="" href="#">
 									<FaLinkedinIn />
 								</a>
-							</button>
+							</button> */}
 						</div>
 					</div>
 
@@ -74,9 +74,7 @@ const Footer = () => {
 								Why People Like us!
 							</h1>
 							<p className=" text-base py-1 text-slate-800 flex leading-10 ">
-								typesetting, remaining essentially unchanged. It was popularised
-								in the 1960s with the like Aldus PageMaker including of Lorem
-								Ipsum.
+							Elevate your special moments with unique, artisan-crafted products designed to add a touch of elegance and charm.
 							</p>
 							<button
 								type="submit"
@@ -151,7 +149,7 @@ const Footer = () => {
 											{" "}
 											<HiOutlineLocationMarker />{" "}
 											<span className="text-slate-900  transition ease-in-out delay-100 hover:translate-x-2  duration-300 text-sm font-medium  mx-2  ">
-												5 Xyz st., Abc, alexandria, egypt.
+											77 Street,Sitamarhi
 											</span>
 										</a>
 									</li>
@@ -173,7 +171,7 @@ const Footer = () => {
 										>
 											<AiOutlineMobile />{" "}
 											<span className="text-slate-900  transition ease-in-out delay-100 hover:translate-x-2  duration-300 text-sm font-medium  mx-2  ">
-												+20123456789{" "}
+												+91-9999999999{" "}
 											</span>
 										</a>
 									</li>

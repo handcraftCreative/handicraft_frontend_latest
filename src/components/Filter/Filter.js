@@ -75,7 +75,7 @@ const Filter = () => {
 			<div className="mx-auto flex justify-between items-start lg:items-center lg:flex-row flex-col gap-y-4 mb-10">
 				<div className="space-y-4 md:space-y-7 max-w-lg">
 					<h1 className="font-medium text-slate-700 text-2xl md:text-3xl lg:text-4xl">
-						Our Organic Products
+					Pure & Natural Creations
 					</h1>
 				</div>
 				<div>

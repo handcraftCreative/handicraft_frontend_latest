@@ -16,7 +16,7 @@ const Feature = () => {
 						<div className="bg-secondary w-full sm:h-[120px] h-[80px] py-5 gap-2  rounded-2xl rounded-t-none flex justify-center items-center ">
 							<div className="px-10 sm:min-w-64 min-w-48 sm:py-8 py-4 bg-primary rounded-xl w-fit h-fit  flex justify-center items-center flex-col sm:translate-y-[-64px] -translate-y-10 gap-2  ">
 								<h1 className="text-white font medium sm:text-xl text-base">
-									Fresh Apple
+								Handpicked Handmade Treasures
 								</h1>
 								<p className="text-third font-semibold sm:text-2xl text-xl">
 									20% OFF
@@ -31,7 +31,7 @@ const Feature = () => {
 						<div className=" bg-third w-full sm:h-[120px] h-[80px] py-5 gap-2  rounded-2xl rounded-t-none flex justify-center items-center">
 							<div className="px-10 sm:min-w-64 min-w-48 sm:py-8 py-4 bg-white rounded-xl w-fit h-fit  flex justify-center items-center flex-col sm:translate-y-[-64px] -translate-y-10 gap-2  ">
 								<h1 className="text-primary font medium sm:text-xl text-base">
-									Testy Fruits
+								Artisan-Crafted Creations
 								</h1>
 								<p className="text-third font-semibold sm:text-2xl text-xl">
 									Free delivary
@@ -46,10 +46,10 @@ const Feature = () => {
 						<div className="bg-primary w-full sm:h-[120px] h-[80px] py-5 gap-2  rounded-2xl rounded-t-none flex justify-center items-center ">
 							<div className="px-10 sm:min-w-64 min-w-48 sm:py-8 py-4 bg-secondary rounded-xl w-fit h-fit  flex justify-center items-center flex-col sm:translate-y-[-64px] -translate-y-10 gap-2  ">
 								<h1 className="text-white font medium sm:text-xl text-base">
-									Exotic Vegitables
+								Unique & Timeless Pieces
 								</h1>
 								<p className="text-third font-semibold sm:text-2xl text-xl">
-									Discount 30$
+									Discount Rs.100
 								</p>
 							</div>
 						</div>

@@ -51,11 +51,11 @@ const Hero = () => {
 							<div className="w-full grid lg:grid-cols-5 md:grid-cols-2  grid-cols-1 min-h-[330px] my-10 lg:gap-5 gap-10  sm:px-10 px-4">
 								<div className="w-full lg:col-span-3">
 									<h4 className="text-darkcolor font-semibold text-base md:text-sm lg:text-lg 2xl:text-2xl mb-5">
-										100% Handcrafted Items
+									    Inspired by Nature, Made by Hand
 									</h4>
-									<h1 className="mb-5 text-primary text-2xl md:text-3xl lg:text-5xl 2xl:text-6xl font-semibold max-w-[800px] tracking-normal">
-										Organic Veggies & Fruits Foods
-									</h1>
+									<h3 className="mb-5 text-primary text-2xl md:text-2xl lg:text-5xl 2xl:text-4xl font-semibold max-w-[1000px] tracking-normal">
+									Discover unique, handcrafted treasures made with love
+									</h3>
 									<div className="relative max-w-[500px]">
 										<input
 											className="w-full rounded-full sm:p-4 p-2 px-3 sm:px-4  border border-black  outline-none"
@@ -145,7 +145,7 @@ const Hero = () => {
 								Free Shipping
 							</h1>
 							<p className="w-full text-center font-sm text-slate-700 text-base">
-								Free on order over $300
+								Free on order over Rs.500
 							</p>
 						</div>
 						<div className="bg-slate-100 rounded-xl p-5 w-full h-full flex justify-center items-center flex-col">

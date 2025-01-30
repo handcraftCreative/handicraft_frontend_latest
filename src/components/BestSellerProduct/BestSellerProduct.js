@@ -84,7 +84,7 @@ const BestSellerProduct = () => {
 									</div>
 
 									<div className=" w-full  gap-2  mt-3 flex justify-start items-start my-auto mx-auto flex-col ">
-										<h1 className=" text-slate-700 font-medium  w-full  h-[62px]  text-2xl capitalize  text-center  truncate-2-lines ">
+										<h1 className=" text-slate-700 font-medium  w-full  h-[62px]  text-xl capitalize  text-center  truncate-2-lines ">
 											{data.productName}
 										</h1>
 										<p className="w-full justify-center items-center text-xl font-light whitespace-nowrap flex text-primary  text-center">

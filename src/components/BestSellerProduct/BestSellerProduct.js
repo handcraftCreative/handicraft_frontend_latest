@@ -46,12 +46,11 @@ const BestSellerProduct = () => {
 	return (
 		<>
 			<div className="max-w-7xl bg-cover mx-auto bg-no-repeat bg-center lg:block pt-32  p-2  px-4">
-				<h1 className="font-[500] text-third text-3xl lg:text-4xl  xl:text-6xl w-full  text-center  justify-center items-center flex  mb-5 ">
-					Bestseller Products
+				<h1 className="font-[500] text-third text-3xl lg:text-4xl  xl:text-5xl w-full  text-center  justify-center items-center flex  mb-5 ">
+				Bestseller Handcrafted Treasures
 				</h1>
 				<p className="text-third  text-base md:text-lg lg:text-[18px] leading-[40px] max-w-[800px] text-center mx-auto">
-					Latin words, combined with a handful of model sentence structures, to
-					generate Lorem Ipsum which looks reasonable.
+				Discover our most-loved creations, each crafted with precision and care. Every piece tells a story of artistry and passion.
 				</p>
 
 				<div className="sm:grid max-w-7xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 flex flex-col justify-center items-center mt-10 ">
@@ -64,7 +63,7 @@ const BestSellerProduct = () => {
 						  ))
 						: data.map((item, index) => <Card key={index} data={item} />)}
 				</div>
-				<div className="sm:grid max-w-7xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 flex flex-col justify-center items-center mt-10 sm:px-0 px-3 ">
+				<div className="sm:grid max-w-7xl mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 flex flex-col justify-start items-start mt-10 sm:px-0 px-3 ">
 					{loading
 						? categoryLoading.map((el, index) => (
 								<div
@@ -74,18 +73,18 @@ const BestSellerProduct = () => {
 						  ))
 						: data2.map((data, index) => (
 								<div
-									className="max-w-full   flex justify-center items-center flex-col overflow-hidden  "
+									className="max-w-full   flex justify-start items-start flex-col overflow-hidden  "
 									key={index}
 								>
-									<div className="w-full h-[200px] overflow-hidden rounded-2xl">
+									<div className="w-full h-[200px] overflow-hidden rounded-2xl self-start">
 										<img
-											className="  object-fill  w-full "
+											className="  object-fill  w-full h-full "
 											src={data.productImage}
 										/>
 									</div>
 
 									<div className=" w-full  gap-2  mt-3 flex justify-start items-start my-auto mx-auto flex-col ">
-										<h1 className=" text-slate-700 font-medium  w-full   text-2xl capitalize  text-center  ">
+										<h1 className=" text-slate-700 font-medium  w-full  h-[62px]  text-2xl capitalize  text-center  truncate-2-lines ">
 											{data.productName}
 										</h1>
 										<p className="w-full justify-center items-center text-xl font-light whitespace-nowrap flex text-primary  text-center">

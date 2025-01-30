@@ -9,17 +9,17 @@ const Card = (props) => {
 	return (
 		<>
 			<div className="w-full h-[400px] max-w-[400px] mx-auto flex justify-start items-start flex-col overflow-hidden rounded-2xl hover:shadow-black/60 hover:shadow-2xl transition-all duration-500 ">
-				<div className="w-full h-[240px] overflow-hidden">
+				<div className="w-full h-[220px] overflow-hidden">
 					<img
 						className="w-full h-full object-fill  transition-all hover:scale-125 duration-300 z-0 "
 						src={props.data.productImage[0]}
 					/>
 				</div>
-				<div className="border-secondary border border-t-0 w-full  grid rounded-2xl rounded-t-none h-[160px] box-border">
-					<h1 className="text-slate-700 font-medium  w-full  flex justify-center items-center p-2  text-center  text-xl capitalize   m-0 h-fit  ">
+				<div className=" border-secondary border border-t-0 w-full  grid rounded-2xl rounded-t-none h-[180px] box-border">
+					<h1 className="text-secondary font-medium  w-full   flex justify-center items-center p-2  text-center  text-xl capitalize   m-0 h-[62px] truncate-2-lines">
 						{props.data.productName}
 					</h1>
-					<p className="w-full text-center text-base px-4 font-normal  text-ellipsis line-clamp-2  ">
+					<p className="w-full text-base px-2 font-normal  truncate-2-lines">
 						{props.data.description}
 					</p>
 					<div className="w-full h-fit py-2 mt-auto px-4 flex justify-between items-center flex-row flex-wrap   ">

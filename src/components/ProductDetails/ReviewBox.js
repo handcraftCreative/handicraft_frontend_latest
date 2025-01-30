@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import productReviews from "../../helper/productReviews";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import SummaryApi from "../../common";
 import { FaCheckCircle } from "react-icons/fa";
@@ -9,6 +10,7 @@ const ReviewBox = ({ productId }) => {
 	const user = useSelector((state) => state?.user?.user);
 	const [menuDisplay, setMenuDisplay] = useState(false);
 	const dispatch = useDispatch(null);
+	const navigate = useNavigate();
 
 	const [AllReview, setAllReview] = useState([]);
 	const [filterReviews, setFilteredReviews] = useState([]);
@@ -100,6 +102,8 @@ const ReviewBox = ({ productId }) => {
 							setMenuDisplay(!menuDisplay);
 							if (!user) {
 								toast.error("you must be logged in first");
+								navigate("/login");
+
 							}
 						}}
 					>

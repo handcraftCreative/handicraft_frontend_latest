@@ -7,18 +7,18 @@ const Card = (props) => {
 	return (
 		<>
 			<div className="sm:min-w-[301px]  max-w-[301px] min-w-[280px]  h-[400px]  flex justify-start items-start flex-col overflow-hidden rounded-2xl hover:shadow-black/60 hover:shadow-2xl transition-all duration-500 ">
-				<div className="w-full h-[240px] overflow-hidden">
+				<div className="w-full h-[220px] overflow-hidden">
 					<img
 						className="w-full h-full object-fill  transition-all hover:scale-125 duration-300 z-0 "
 						src={props.data.productImage}
 						alt={props.data.productName}
 					/>
 				</div>
-				<div className="border-secondary border border-t-0 w-full h-[160px]   grid rounded-2xl rounded-t-none">
-					<h1 className="text-slate-700 font-medium  w-full p-2  text-center  text-xl capitalize   ">
+				<div className="border-secondary border border-t-0 w-full h-[180px]   grid rounded-2xl rounded-t-none">
+				<h1 className="text-secondary font-medium  w-full   flex justify-center items-center p-2  text-center  text-xl capitalize   m-0 h-[62px] truncate-2-lines">
 						{props.data.productName}
 					</h1>
-					<p className="w-full text-center text-base px-4 font-light text-ellipsis line-clamp-2">
+					<p className="w-full text-base px-2 font-normal  truncate-2-lines">
 						{props.data.description}
 					</p>
 					<div className="w-full px-4 flex justify-between items-center flex-row  p-2 mt-auto">

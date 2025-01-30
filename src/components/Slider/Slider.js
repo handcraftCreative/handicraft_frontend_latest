@@ -42,7 +42,7 @@ const Slider = () => {
 				<div className="mx-auto flex justify-between items-start lg:items-center lg:flex-row flex-col gap-4 lg:mb-0 mb-8">
 					<div className="space-y-4 md:space-y-7 max-w-lg ">
 						<h1 className="font-medium text-slate-700 text-2xl md:text-3xl lg:text-4xl">
-							Our Organic Products
+						Pure & Natural Creations
 						</h1>
 					</div>
 					<div className="lg:flex justify-between flex-wrap my-8 font-medium text-xl hidden">
@@ -81,15 +81,14 @@ const Slider = () => {
 					<div className="max-w-[1400px] mx-auto p-5">
 						<div className="w-full grid  sm:grid-cols-2 grid-cols-1  min-h-[330px] my-10 lg:gap-5 gap-10 sm:px-0 px-5">
 							<div className="w-full h-full flex justify-center items-start flex-col gap-5 ">
-								<h1 className=" text-white text-2xl md:text-2xl lg:text-3xl 2xl:text-6xl font-semibold tracking-normal">
-									Fresh Exotic Fruits
+								<h1 className=" text-white text-2xl md:text-2xl lg:text-3xl 2xl:text-5xl font-semibold tracking-normal">
+								Exquisite Handmade Creations
 								</h1>
-								<h1 className=" text-third text-2xl md:text-2xl lg:text-3xl 2xl:text-6xl font-semibold tracking-normal">
-									in Our Store
+								<h1 className=" text-third text-2xl md:text-2xl lg:text-3xl 2xl:text-5xl font-semibold tracking-normal">
+								In Our Collection
 								</h1>
 								<p className="text-third text-sm">
-									The generated Lorem Ipsum is therefore always free from
-									repetition injected humour, or non-characteristic words etc.
+								Each piece is thoughtfully crafted, ensuring uniqueness and quality. Free from repetition, every item tells its own story.
 								</p>
 								<button
 									type="submit"

@@ -22,7 +22,7 @@ const Card = (props) => {
 					</div>
 				</div>
 				<div className=" w-full  mg:gap-4 gap-2   flex justify-start items-start my-auto mx-auto flex-col ">
-					<h1 className="text-slate-700 font-medium  w-full   text-xl capitalize   ">
+					<h1 className="text-slate-700 font-medium  w-full   text-xl capitalize truncate-2-lines  ">
 						{props.data.productName}
 					</h1>
 					<p className="w-full text-xl font-light whitespace-nowrap flex text-primary">
